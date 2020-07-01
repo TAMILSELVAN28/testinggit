@@ -292,6 +292,7 @@ def pagination():
         return respond(502)
 
     # finally:
+    #     close_pubsub_client()
 
 
 if __name__ == '__main__':
